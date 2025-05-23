@@ -1,13 +1,17 @@
 # -python-assignment5
 ### TASK 1
-1. **Dictionary Lookup**: It initializes a dictionary (`dictionary`) that contains student names as keys and their marks as values. Here, `"Alice"` is stored with a score of `85`.
+1. **Dictionary Initialization:**  
+   - The program creates a dictionary with student names as keys (`"Alice"`) and their marks as values (`85`).
 
-2. **User Input Handling**: The program prompts the user to enter a student's name with the first letter capitalized. The input is stored in the variable `name`.
+2. **User Input Handling:**  
+   - It prompts the user to enter a student's name, storing it in `name`.
+   - The `.capitalize()` method ensures that the first letter is capitalized correctly, making lookup more reliable.
 
-3. **Data Retrieval & Exception Handling**:
-   - The program tries to fetch the marks of the student using `dictionary[name]`.
-   - If the name exists in the dictionary, it prints their marks.
-   - If the name does **not** exist (causing a `KeyError`), it gracefully handles the error with an `except` block, printing `"Student not found"` instead of crashing.
+3. **Data Retrieval & Exception Handling:**  
+   - It searches the dictionary using `dictionary[Name]` (where `Name` holds the capitalized version of the input).
+   - If found, it prints their marks.
+   - If not found, it gracefully handles the `KeyError` by displaying `"Student not found"` instead of crashing.
+
 
 
 ### TASK 2 
